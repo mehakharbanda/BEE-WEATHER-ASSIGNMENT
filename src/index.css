@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  padding: 20px;
+  max-width: 800px; /* Adjust max-width as needed */
+  margin: 0 auto; /* Center the container */
+}
+
+h2 {
+  text-align: center; /* Center the main title */
+}
+
+h3 {
+  margin-top: 20px; /* Space out city titles */
+}
+
+button {
+  margin: 10px; /* Space buttons apart */
+  padding: 30px 55px; /* Adjust button size */
+  margin-top: 40px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darken button on hover */
+}
+
+p {
+  color:white; /* Color for messages */
+}
